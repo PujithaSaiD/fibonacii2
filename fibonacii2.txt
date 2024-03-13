@@ -1,0 +1,13 @@
+print(0,end=" ")
+print(1,end=" ")
+c=2
+def fibonaci(a,b):
+  global c
+  if c<=19:
+    temp=a+b
+    print(temp,end=" ")
+    a=b
+    b=temp
+    c+=1
+    fibonaci(a,b)
+fibonaci(0,1
